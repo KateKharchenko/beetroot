@@ -1,0 +1,38 @@
+.circle {
+	width: 400px;
+	height: 400px;
+	outline: 1px solid #00ff00;
+	font-size: 0;
+	border-radius: 15px 75px;
+	overflow: hidden; 
+
+/* 
+выравние по центру экрана */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.circle div {
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	outline: 1px solid #0000ff;
+
+}
+
+.circle div:nth-child(1) {
+	background: #00ff00;
+}
+.circle div:nth-child(2) {
+	background: #0000ff ;
+}
+.circle div:nth-child(3) {
+	background: #ff0000 ;
+}
+
+.circle div:nth-child(4) {
+	background: #FF00ff;
+
+
+}
